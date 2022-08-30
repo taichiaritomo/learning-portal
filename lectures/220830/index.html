@@ -1,0 +1,321 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>August 30th, 2022</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      font-size: 4vmin;
+      background: gray;
+    }
+    body {
+      margin: 0;
+    }
+    .jumper {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 200px;
+      cursor: pointer;
+    }
+    .slide-container {
+      width: 100%;
+      height: 100vh;
+      overflow-y: scroll;
+      scroll-snap-type: y mandatory;
+    }
+    .slide {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      scroll-snap-align: start;
+      padding: 1em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: white;
+    }
+    .slide.title {
+      outline: 1px solid white;
+      outline-offset: -0.5em;
+      /* padding: 0.5em; */
+    }
+    figure {
+      max-width: 100%;
+      max-height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    figure img {
+      width: 80%;
+      height: 80%;
+      object-fit: contain;
+    }
+    figure caption {
+      width: 80%;
+    }
+    .group {
+      max-width: 30rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="slide title">
+      <h1>Aug 30th, 2022</h1>
+      <a href="#introductions">Introductions</a>
+      <a href="#lecture">Lecture</a>
+    </div>
+
+    <div class="slide title" id="introductions">
+      <h2>Introductions</h2>
+    </div>
+
+    <div class="slide title" id="about-us">
+      <h2>About us</h2>
+      <p>
+        What's your name?
+      </p>
+      <p>
+        Where do you call home?
+      </p>
+      <p>
+        What's your relationship to computers like?
+      </p>
+      <p>
+        How does a good design (in your opinion) make you feel?
+      </p>
+      <p>
+        Do you have any hopes for your time in this class?
+      </p>
+    </div>
+
+    <div class="slide title" id="about-class">
+      <h2>About the class</h2>
+      <!--
+        Make sure you understand the attendance policy.
+        The syllabus covers the goals for the class and what we're learning.
+        Let's maintain a beginner's mind and not hold pre-conceived notions too tightly.
+      -->
+      <p>
+        <a href="http://ideal.website">
+          Class Website
+        </a>
+      </p>
+    </div>
+
+    <div class="slide title" id="code">
+      <h2>Class Code of Conduct</h2>
+      <p>
+        <a href="https://docs.google.com/document/d/16MDcBec3j-TEyrkucwLz3d1sXFVoacpihU6tl6SaQxo/edit?usp=sharing">Class Code of Conduct (Google Doc)</a>
+      </p>
+    </div>
+
+    <div class="slide title" id="project">
+      <h2>About the project</h2>
+      <p>
+        I updated the <a href="http://ideal.website">Class Website</a>.
+      </p>
+    </div>
+
+    <div class="slide title" id="themes">
+      <p>
+        Tell about your 3 ideas for a theme<br/>
+      </p>
+    </div>
+
+    <div class="slide title" id="lecture">
+      <h2>Lecture: Files, Folders, and Networks</h2>
+    </div>
+
+    <div class="slide">
+      <p>
+        In justifying the name "Media Ecology" as a field of study, Neil Postman says,
+      </p>
+      <blockquote>
+        "We wanted to make people more conscious of the fact that human beings live in two different kinds of environments. One is the natural environment and consists of things like air, trees, rivers, and caterpillars. <strong>The other is the media environment, which consists of language, numbers, images, holograms, and all of the other symbols, techniques, and machinery that make us what we are.</strong>"
+        <cite>
+          <a href="https://media-ecology.org/resources/Documents/Proceedings/v1/v1-02-Postman.pdf">"The Humanism of Media Ecology"</a>, 2000.
+        </cite>
+      </blockquote>
+    </div>
+
+    <div class="slide">
+      <p>
+        Language is an important part of the interface between people and computers.
+      </p>
+    </div>
+
+    <div class="slide">
+      <p>
+        In the 1970s people communicated with computers in a written language through a command line.
+      </p>
+    </div>
+
+    <div class="slide">
+      <figure>
+        <img src="http://xahlee.info/kbd/iold51593/DEC_VT78_terminal.jpg"/>
+        <figcaption>DEC VT78 terminal, 1975. Source: <a href="http://xahlee.info/kbd/vt52_terminal.html">xahlee.info</a></figcaption>
+      </figure>
+    </div>
+
+    <div class="slide">
+      <p>
+        In the 80s, Xerox Star introduced a graphical user interface that made manipulating information and communicating with a computer appear through metaphors of paper on a desktop.
+      </p>
+    </div>
+
+    <div class="slide">
+      <figure>
+        <img src="http://members.dcn.org/dwnelson/images/figure1.jpg"/>
+        <figcaption>The Graphical User Interface (GUI) of Xerox Star.<br/><a href="http://members.dcn.org/dwnelson/XeroxStarRetrospective.html">The Xerox "Star": A Retrospective, 1989</a></figcaption>
+      </figure>
+    </div>
+
+    <div class="slide">
+      <p>
+        Language still played a large part here. The concepts named <em>files</em> and <em>folders</em> were two major metaphors in the operating system, and the designers believed that many people could easily learn computing through their experiences with paper.
+      </p>
+    </div>
+
+    <div class="slide">
+      <p>
+        Although the idea of files and folders doesn't have very much to do with the physics of how a computer stores and handles information,
+        it influenced the interfaces of Windows and Mac computers, and we still interact with them today.
+      </p>
+    </div>
+
+    <div class="slide">
+      <figure>
+        <img src="./xerox-star-designer.jpg"/>
+        <figcaption>One of the designers of Xerox Star.<br/><a href="https://www.youtube.com/watch?v=Cn4vC80Pv6Q&list=LL&index=9l">Xerox Star User Interface (1982)</a></figcaption>
+      </figure>
+    </div>
+
+    <div class="slide">
+      <p>
+        By knowing and remembering that interfaces are made from language, we can increase our awareness of our media environment.
+      </p>
+    </div>
+
+    <div class="slide">
+      <blockquote>
+        “Metaphor unites reason and imagination,” says George Lakoff and Mark Johnson in their book, Metaphors We Live By (1980). “Metaphors are not merely things to be seen beyond. In fact, one can see beyond them only by using other metaphors. It is as though the ability to comprehend experience through metaphor were a sense, like seeing or touching or hearing, with metaphors providing the only ways to perceive and experience much of the world. Metaphor is as much a part of our functioning as our sense of touch, and as precious.”
+        <cite>
+          <a href="https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/">
+            Laurel Schwulst, "My website is a shifting house next to a river of knowledge. What could yours be?", 2018.
+          </a>
+        </cite>
+      </blockquote>
+    </div>
+
+    <div class="slide">
+      <p>
+        With an awareness of language, we can think about designing interfaces by designing the words we use.
+      </p>
+    </div>
+
+    <div class="slide">
+      <p>
+        So, we are learning programming languages, but you can get a lot out of common language. You can use the words in your themes to try to help you think in new ways, literally or figuratively.
+      </p>
+    </div>
+
+    <div class="slide">
+      <p>
+        What are some metaphors that you interact with in your life?
+      </p>
+      <p>
+        What might these metaphors say about the people and the society that makes and uses them?
+      </p>
+    </div>
+
+    <!-- <div class="slide">
+      <p>
+        We inherit the language and technology of past worlds that may be very different from ours today.
+      </p>
+    </div>
+
+    <div class="slide">
+      <p>
+        In her "Glitch Feminism Manifesto", the writer Legacy Russell takes the term "glitch" to suggest different ways of being, outside or in-between the confines of language and technology imposed on our bodies. 
+      </p>
+    </div>
+
+    <div class="slide">
+      <blockquote>
+        I never knew what Jeph was—man, woman, or floating somewhere in-between these suffocating dualities. But I knew what I could be. As a kid, I could be a teenager. As a teenager, I could be a woman. As a woman, I could be a man. As a man, I could be a cyborg (thanks, Haraway). Shape-shifting between all of these projected selves, I could forget that I was a browned queering body that, in being born and ejected into the world, had had femininity forced upon it by the unforgiving mores of sociality. Trying on these different corporeal conceptions, I came to redress—and undress—the fictive illusions of sex and gender.
+        <cite>
+          <a href="https://rhizome.org/editorial/2013/mar/12/glitch-body-politic/">Legacy Russell. "Elsewhere, After the Flood: Glitch Feminism and the Genesis of Glitch Body Politic"</a>
+        </cite>
+      </blockquote>
+    </div> -->
+
+    
+
+    <div class="slide image" id="lecture">
+      <h2>Exercise</h2>
+      <ol>
+        <li>
+          Transfer a photo from your phone to your computer.
+        </li>
+        <li>
+          An important thing you can do to a file is to name it. Name your image file.
+        </li>
+        <li>
+          We'll put it in a class folder, and name that too.
+        </li>
+        <li>
+          We'll upload it to <a href="https://archive.org/create/">archive.org</a>.
+        </li>
+      </ol>
+    </div>
+
+    <div class="slide title" id="next-week">
+      <div class="group">
+        <h2>Next Week</h2>
+        <p>
+          We'll introduce HTML.
+        </p>
+        <p>
+          One entry for your harmonic collection. For now, it can be any file format: a txt file, an image, a video... And we'll put it into an HTML page next week.
+        </p>
+        <p>
+          Watch <a href="https://mediathek.hfbk.net/l2go/-/get/v/443"><i>Four YoU</i>, Olia Lialina, Talk from 07/13/2022</a> - 2:00 to about 50:00 (Q/A portion). It's a history of websites.<br/>
+        </p>
+      </div>
+    </div>
+
+    <div class="slide title">
+      <h2>Reminder</h2>
+      <p>
+        CD Kickoff Event on Friday!<br/>
+      </p>
+    </div>
+  </div>
+
+  <script>
+
+    const slideContainer = document.querySelector('.slide-container');
+
+    const slides = document.querySelectorAll('.slide');
+    slides.forEach((slide) => {
+      let newJumper = document.createElement('div');
+      newJumper.classList.add('jumper');
+      slide.appendChild(newJumper);
+      newJumper.addEventListener('click', () => {
+        const nextSlide = slide.nextElementSibling;
+        if (nextSlide) {
+          slideContainer.scrollTo(0, nextSlide.offsetTop);
+        }
+      });
+    })
+  </script>
+</body>
