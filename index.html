@@ -6,19 +6,23 @@
     * {
       box-sizing: border-box;
     }
+
     html {
       background: lightgrey;
       font-family: 'Arial', sans-serif;
       font-size: 15px;
       line-height: 1.3;
     }
+
     body {
       margin: 0
     }
+
     address {
       display: inline;
       margin: 0;
     }
+
     header {
       margin: 0 auto;
       top: 0;
@@ -30,26 +34,32 @@
       max-width: 27rem;
       z-index: 0;
     }
+
     .info {
       text-align: center;
       margin-bottom: 1.25rem;
     }
+
     h1 {
       margin-top: 0;
       font-weight: normal;
       font-size: inherit;
       font-size: 1.25em;
     }
+
     header time.term {
       font-size: 0.75em;
     }
+
     header time {
       display: block;
     }
+
     header address {
       display: block;
       font-style: normal;
     }
+
     .intro {
       position: absolute;
       padding-top: 1rem;
@@ -58,6 +68,7 @@
       width: 100%;
       max-width: 27rem;
     }
+
     .notice {
       max-width: 13.5rem;
       margin: 1rem auto 0;
@@ -65,17 +76,20 @@
       background: goldenrod;
       border-radius: 0.25rem;
     }
+
     blockquote {
       margin: 0 auto;
       padding: 2rem;
       max-width: 27rem;
     }
+
     cite {
       display: block;
       margin-top: 0.5em;
       font-style: normal;
       font-size: 0.75em;
     }
+
     main {
       margin: 0 auto;
       display: flex;
@@ -84,16 +98,20 @@
       max-width: 27rem;
       padding-bottom: 1rem;
     }
+
     details[open] summary h2 {
       background: goldenrod;
       color: black;
     }
+
     details:not(:last-child) summary {
       margin-right: 0.5rem;
     }
+
     summary {
       display: block;
     }
+
     summary h2 {
       display: inline-block;
       cursor: pointer;
@@ -106,17 +124,21 @@
       font-weight: normal;
       font-size: inherit;
     }
+
     summary h2:hover {
       /* background: rgb(131, 255, 193); */
       /* background: rgb(223, 181, 138); */
       background: lightgoldenrodyellow;
     }
+
     summary::marker {
       display: none;
     }
+
     summary::-webkit-details-marker {
       display: none;
     }
+
     details .content {
       position: absolute;
       z-index: 1;
@@ -128,41 +150,51 @@
       transform: translateX(-50%);
       padding-bottom: 1rem;
     }
+
     details .content .box {
       background: white;
       border-radius: 0.25rem;
       padding: 0.1rem 1rem;
     }
+
     h3 {
       margin: 1em 0 0.5em;
       font-size: inherit;
     }
+
     h3:not(:first-child) {
       border-top: 2px solid lightgrey;
       padding-top: 1em;
     }
+
     table {
       font-size: inherit;
     }
+
     table th {
       text-align: left;
     }
+
     table td {
       vertical-align: top;
     }
+
     ul {
       padding-left: 1.5em;
     }
+
     @media only screen and (min-width: 480px) {
       html {
         font-size: 18px;
       }
     }
+
     @media only screen and (min-width: 640px) {
       html {
         font-size: 24px;
       }
     }
+
     @media only screen and (min-width: 960px) {
       html {
         font-size: 36px;
@@ -170,6 +202,7 @@
     }
   </style>
 </head>
+
 <body>
   <header>
     <div class="info">
@@ -183,8 +216,10 @@
         First day of class is August 30th. Arrive with your laptop and 3 ideas for a theme (see Project).
       </div> -->
       <blockquote>
-        "Native scholar Greg Cajete has written that in Indigenous ways of knowing, <strong>we understand a thing only when we understand it with all four aspects of our being: mind, body, emotion, and spirit.</strong>"
-        <cite>From <i>Braiding Sweetgrass</i>, "Asters and <span style="background: goldenrod">Goldenrod</span>" by Robin Wall Kimmerer</cite>
+        "Native scholar Greg Cajete has written that in Indigenous ways of knowing, <strong>we understand a thing only
+          when we understand it with all four aspects of our being: mind, body, emotion, and spirit.</strong>"
+        <cite>From <i>Braiding Sweetgrass</i>, "Asters and <span style="background: goldenrod">Goldenrod</span>" by
+          Robin Wall Kimmerer</cite>
       </blockquote>
     </div>
   </header>
@@ -198,25 +233,25 @@
         <div class="box">
           <p>
             Our class consists of...
-            <ul class="people-list">
-              <li>Anna Brown</li>
-              <li>Yunqi Chen</li>
-              <li>Chandana Chordia</li>
-              <li>Valentina Donoso Abuawad</li>
-              <li>Bradley Duley</li>
-              <li>Angela Jung</li>
-              <li>Alicia Kim</li>
-              <li>Min Kim</li>
-              <li>Karen Ko</li>
-              <li>Guoman Li</li>
-              <li>Elin Nakayama</li>
-              <li>Mateo Perez</li>
-              <li>Eric Shin</li>
-              <li>Meera Sunil</li>
-              <li>Serena Wan</li>
-              <li>Taichi Wi (instructor)</li>
-              <li>Serena Zheng</li>
-            </ul>
+          <ul class="people-list">
+            <li>Anna Brown</li>
+            <li>Yunqi Chen</li>
+            <li>Chandana Chordia</li>
+            <li>Valentina Donoso Abuawad</li>
+            <li>Bradley Duley</li>
+            <li>Angela Jung</li>
+            <li>Alicia Kim</li>
+            <li>Min Kim</li>
+            <li>Karen Ko</li>
+            <li>Guoman Li</li>
+            <li>Elin Nakayama</li>
+            <li>Mateo Perez</li>
+            <li>Eric Shin</li>
+            <li>Meera Sunil</li>
+            <li>Serena Wan</li>
+            <li>Taichi Wi (instructor)</li>
+            <li>Serena Zheng</li>
+          </ul>
           </p>
           <p>
             This list may change up to the first day of class.
@@ -232,34 +267,38 @@
         <div class="box">
           <p>
             During our time...
-            <ul>
-              <li>
-                We'll think slowly.
-              </li>
-              <li>
-                We'll search for an understanding of programming that is meaningful, generative, and grounded in its nature.
-              </li>
-              <li>
-                We'll practice the fundamental languages of the web and learn their histories:
-                <ul>
-                  <li>
-                    HTML, which gives information its structure
-                  </li>
-                  <li>
-                    CSS, which defines its appearance
-                  </li>
-                  <li>
-                    Javascript, the engine that makes it dynamic
-                  </li>
-                </ul>
-              </li>
-              <li>
-                We'll work from experimentation, history, and observation, while respecting different perspectives, values, and ways of knowing.
-              </li>
-              <li>
-                We'll offer observations and questions, make space, and support each other in communication. Although the class operates in English, we should not treat English as a better means of communicating, but a bridge for us to communicate.
-              </li>
-            </ul>
+          <ul>
+            <li>
+              We'll think slowly.
+            </li>
+            <li>
+              We'll search for an understanding of programming that is meaningful, generative, and grounded in its
+              nature.
+            </li>
+            <li>
+              We'll practice the fundamental languages of the web and learn their histories:
+              <ul>
+                <li>
+                  HTML, which gives information its structure
+                </li>
+                <li>
+                  CSS, which defines its appearance
+                </li>
+                <li>
+                  Javascript, the engine that makes it dynamic
+                </li>
+              </ul>
+            </li>
+            <li>
+              We'll work from experimentation, history, and observation, while respecting different perspectives,
+              values, and ways of knowing.
+            </li>
+            <li>
+              We'll offer observations and questions, make space, and support each other in communication. Although the
+              class operates in English, we should not treat English as a better means of communicating, but a bridge
+              for us to communicate.
+            </li>
+          </ul>
           </p>
           <p>
             <em>We can define more shared goals in conversation throughout the term.</em>
@@ -274,11 +313,13 @@
       <div class="content">
         <div class="box">
           <h3>Syllabus</h3>
-          <a href="https://docs.google.com/document/d/14sJJJiea1KKbHD5dfToR2kMUdrdkEgL_N9_kjzTRAaY/edit?usp=sharing">Syllabus (Google Docs)</a><br/>
+          <a href="https://docs.google.com/document/d/14sJJJiea1KKbHD5dfToR2kMUdrdkEgL_N9_kjzTRAaY/edit?usp=sharing">Syllabus
+            (Google Docs)</a><br />
           Contains objectives, assignments, and policies shared across sections of the cohort.
           <h3>
             Lectures and Class Materials
           </h3>
+          <a href="https://taichi.pink/demo-library">Demo Library</a>
           <ol>
             <li>
               <a href="./lectures/220830">August 30, 2022: File Names</a>
@@ -287,30 +328,49 @@
               <a href="./lectures/220906">September 6, 2022: HTML</a>
             </li>
             <li>
-              <a href="https://paper.dropbox.com/doc/September-13-2022.-HTML-CSS--BpD1miV8h_De_WVfn78_ROy6AQ-LCO53LB35oKbQbEJyowua">September 13, 2022: HTML + CSS</a>
+              <a
+                href="https://paper.dropbox.com/doc/September-13-2022.-HTML-CSS--BpD1miV8h_De_WVfn78_ROy6AQ-LCO53LB35oKbQbEJyowua">September
+                13, 2022: HTML & CSS</a>
             </li>
             <li>
-              <a href="https://paper.dropbox.com/doc/September-20-2022-CSS-Basics-Living-Collections-on-the-Web--Bph0R6PmrLlx1pYlhzhEvmBuAQ-qUHZLKzeK6kMPBw8UuVCH">September 20, 2022: CSS</a>
+              <a
+                href="https://paper.dropbox.com/doc/September-20-2022-CSS-Basics-Living-Collections-on-the-Web--Bph0R6PmrLlx1pYlhzhEvmBuAQ-qUHZLKzeK6kMPBw8UuVCH">September
+                20, 2022: CSS Intro</a>
             </li>
             <li>
-              <a href="https://paper.dropbox.com/doc/September-27-2022-FileFolder-Structures-CSS-LayoutPositioning--Bp_a8zq9uhjRSloM4jLzgLBvAQ-CFfPkW25wFIXEOQxZ0DzX">September 27, 2022: CSS</a>
+              <a
+                href="https://paper.dropbox.com/doc/September-27-2022-FileFolder-Structures-CSS-LayoutPositioning--Bp_a8zq9uhjRSloM4jLzgLBvAQ-CFfPkW25wFIXEOQxZ0DzX">September
+                27, 2022: CSS Layout and Flex, Github</a>
             </li>
             <li>
-              <a href="https://paper.dropbox.com/doc/October-4-2022-Going-Online-CSS-Responding-and-Animating-Notes--BqTi2RQhQDSYnvuSKA2FWgcGAQ-5PTnYzyyRf6tGbbt5p4zB">October 4, 2022</a>
+              <a
+                href="https://paper.dropbox.com/doc/October-4-2022-Going-Online-CSS-Responding-and-Animating-Notes--BqTi2RQhQDSYnvuSKA2FWgcGAQ-5PTnYzyyRf6tGbbt5p4zB">October
+                4, 2022: CSS Animations, Github Pages</a>
+            </li>
+            <li>
+              <a
+                href="https://paper.dropbox.com/doc/October-11-2022-CSS-Responding-to-Screen-Size--Bq3DbLu1fol~F~v9~IA4USRJAQ-z3JumPDEb2BhuB2hZTMuV">October
+                11, 2022: CSS Media Queries</a>
             </li>
           </ol>
-          <h3>Readings</h3>
+          <h3>Read & Watched</h3>
           <ul>
             <li>
-              <a href="https://mediathek.hfbk.net/l2go/-/get/v/443"><i>Four YoU</i>, Talk by Olia Lialina from 07/13/2022</a>
+              <a href="https://mediathek.hfbk.net/l2go/-/get/v/443"><i>Four YoU</i>, Talk by Olia Lialina from
+                07/13/2022</a>
             </li>
             <li>
               <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">Paul Ford, "What is Code?"</a>
             </li>
+            <li>
+              <a href="https://frankchimero.com/blog/2018/the-good-room/">Frank Chimero, "The Good Room"</a>
+            </li>
           </ul>
           <h3>Tutors</h3>
           <p>
-            Tutor Specialists are available for one-on-one assistance, in-person at the Design Lab, to help Communication Design students learn how to code. Students can find the details from <a href="https://cdparsons.glideapp.io">CD App</a> > Make & Remake
+            Tutor Specialists are available for one-on-one assistance, in-person at the Design Lab, to help
+            Communication Design students learn how to code. Students can find the details from <a
+              href="https://cdparsons.glideapp.io">CD App</a> > Make & Remake
           </p>
         </div>
       </div>
@@ -323,10 +383,14 @@
         <div class="box">
           <h3>"Harmonic Collection"</h3>
           <p>
-            Pick a theme to explore for the duration of the semester. Each week, you’ll design and code an entry to a collection that explores this theme. At the end of the semester, you’ll deliver a website that houses 11 programmed entries. The website container is part of the design, as well.
+            Pick a theme to explore for the duration of the semester. Each week, you’ll design and code an entry to a
+            collection that explores this theme. At the end of the semester, you’ll deliver a website that houses 11
+            programmed entries. The website container is part of the design, as well.
           </p>
           <p>
-            Your theme should be open-ended enough to encourage a range of content, but specific enough to inspire a sketch each week for twelve weeks. Example themes: your daily commute, "solitude", or interesting words you came across this week.
+            Your theme should be open-ended enough to encourage a range of content, but specific enough to inspire a
+            sketch each week for twelve weeks. Example themes: your daily commute, "solitude", or interesting words you
+            came across this week.
           </p>
           <p>
             <a href="https://docs.google.com/document/d/1ttMxZB4rKr5XZvBRueSLXWMV3MAHde41xyVQIwZ-HwM/edit?usp=sharing">
@@ -347,7 +411,9 @@
               </li>
             </ul>
           </p> -->
-          <p>We'll discuss the project more throughout the semester. You can find more info on the project in the <a href="https://docs.google.com/document/d/14sJJJiea1KKbHD5dfToR2kMUdrdkEgL_N9_kjzTRAaY/edit?usp=sharing">Syllabus</a></p>
+          <p>We'll discuss the project more throughout the semester. You can find more info on the project in the <a
+              href="https://docs.google.com/document/d/14sJJJiea1KKbHD5dfToR2kMUdrdkEgL_N9_kjzTRAaY/edit?usp=sharing">Syllabus</a>
+          </p>
         </div>
       </div>
     </details>
